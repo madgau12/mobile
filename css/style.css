@@ -1,0 +1,75 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  
+}
+
+#even{
+    color: white;
+    background-color:navy;
+}
+
+#odd{
+    color: navy;
+    background-color: white;
+
+}
+
+#nav{
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1; 
+}
+
+h1{
+    color: navy;
+    font-family: Arial,sans-serif;
+}
+
+h2{
+    font-family: Arial,sans-serif;
+}
+
+p{
+    font-family: Arial,sans-serif;
+}
+
+.mainpic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#gallery{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color:lightgray;
+    color:black;  
+}
+
+
+a{
+    color:black;
+    font-family: Arial,sans-serif;
+    text-decoration: none;
+}
+
+a:visited{
+    color:black;
+    font-family: Arial,sans-serif;
+    text-decoration: none;
+}
+
+a:active{
+    color:navy;
+    text-decoration: underline;
+
+}
+
+ul{
+    list-style: none;
+}
